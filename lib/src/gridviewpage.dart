@@ -5,7 +5,7 @@ class GridViewPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    List<Item> myList = [usulkp, usulpensiun, usulk3];
+    List<Item> myList = [usulkp, usulpensiun, usulk3, konsulonline];
     return Flexible(
       child: GridView(
         gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
